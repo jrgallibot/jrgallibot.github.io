@@ -137,7 +137,7 @@ Django + React
 
 ---
 
-# 🎯 WHY HIRE ME (ONLINEJOBS CLIENT VERSION)
+# 🎯 WHY HIRE ME?
 
 ✔ Production-level experience  
 ✔ Government & enterprise system background  
