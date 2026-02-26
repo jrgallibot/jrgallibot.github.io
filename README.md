@@ -1,227 +1,165 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Florussel F. Gallibot | Full-Stack Developer</title>
+<p align="center">
+  <img src="https://imgur.com/2Qwm3YR" width="220" style="border-radius: 50%; border: 4px solid #111;" />
+</p>
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<h1 align="center">FLORUSSEL F. GALLIBOT</h1>
 
-<style>
-:root {
-    --bg: #0f172a;
-    --card: rgba(255,255,255,0.08);
-    --text: #ffffff;
-    --accent: #38bdf8;
-}
+<p align="center">
+  <strong>SENIOR FULL-STACK ENGINEER • SYSTEM ARCHITECT • DATA AUTOMATION SPECIALIST</strong>
+</p>
 
-body.light {
-    --bg: #f1f5f9;
-    --card: rgba(255,255,255,0.7);
-    --text: #0f172a;
-}
+<p align="center">
+  <a href="https://drive.google.com/drive/folders/1-5ZPfgXMDlagznpbVzTAlf87yxZgk0bZ?usp=sharing">
+    <img src="https://img.shields.io/badge/Download-Resume-111111?style=for-the-badge&logo=google-drive&logoColor=white" />
+  </a>
+  <a href="https://github.com/jrgallibot">
+    <img src="https://img.shields.io/badge/GitHub-Profile-000000?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="mailto:jrgallibot@gmail.com">
+    <img src="https://img.shields.io/badge/Available-for%20Remote%20Work-0A0A0A?style=for-the-badge&logo=vercel&logoColor=white" />
+  </a>
+</p>
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+---
 
-body {
-    font-family: 'Inter', sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    transition: 0.4s ease;
-}
+# 🧠 EXECUTIVE SUMMARY
 
-.container {
-    max-width: 1100px;
-    margin: auto;
-    padding: 40px 20px;
-}
+Senior Full-Stack Engineer with 5+ years of experience designing and deploying scalable production systems across government and private sectors.
 
-header {
-    text-align: center;
-    padding: 80px 20px 40px;
-    animation: fadeIn 1s ease-in-out;
-}
+Specialized in:
 
-header img {
-    width: 170px;
-    border-radius: 50%;
-    border: 4px solid var(--accent);
-    box-shadow: 0 0 30px rgba(56,189,248,0.5);
-    margin-bottom: 20px;
-}
+- High-performance React & Next.js applications (SSR, SSG, API routes)
+- Django-based enterprise backend systems
+- Large-scale web scraping & automation pipelines
+- Structured data engineering & crawling infrastructure
+- Clean architecture & modular system design
 
-h1 {
-    font-size: 2.5rem;
-    font-weight: 800;
-}
+I build systems that are **scalable, maintainable, automated, and production-ready** — not just prototypes.
 
-.subtitle {
-    font-weight: 400;
-    margin-top: 10px;
-    opacity: 0.8;
-}
+---
 
-.toggle-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 8px 15px;
-    border-radius: 20px;
-    border: none;
-    background: var(--accent);
-    cursor: pointer;
-    font-weight: 600;
-}
+# 🏢 ENTERPRISE EXPERIENCE
 
-.card {
-    backdrop-filter: blur(20px);
-    background: var(--card);
-    border-radius: 15px;
-    padding: 30px;
-    margin: 25px 0;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    transition: 0.3s;
-}
+## 🏛 Department of Social Welfare and Development (DSWD)
+**Project Development Officer II – System Developer (2019 – Present)**
 
-.card:hover {
-    transform: translateY(-6px);
-}
+Architected and deployed:
 
-.section-title {
-    font-size: 1.5rem;
-    margin-bottom: 15px;
-    font-weight: 700;
-}
+- **DSWD Portal** – Centralized employee information system
+- **IRIS Recruitment System** – Full digital hiring platform with workflow automation
+- Backend API architecture & database schema design
+- Process automation & system optimization for internal government operations
 
-.skills span {
-    display: inline-block;
-    background: var(--accent);
-    color: #000;
-    padding: 6px 12px;
-    border-radius: 20px;
-    margin: 5px;
-    font-size: 0.85rem;
-    font-weight: 600;
-}
+---
 
-.buttons {
-    margin-top: 20px;
-}
+## 🌐 OnlineJobs.ph (Remote)
+**Web Developer (2021 – 2022)**
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
-    border-radius: 25px;
-    margin: 5px;
-    font-weight: 600;
-    text-decoration: none;
-    transition: 0.3s;
-}
+- Built large-scale scraping system (RCStock)
+- Designed automation pipelines for structured datasets
+- Implemented Django production architecture
+- Optimized crawling performance for data-heavy operations
 
-.primary {
-    background: var(--accent);
-    color: #000;
-}
+---
 
-.secondary {
-    border: 2px solid var(--accent);
-    color: var(--accent);
-}
+## 🛰 RAKWIRELESS.COM
+**Programmer (2018 – 2019)**
 
-.btn:hover {
-    transform: scale(1.05);
-}
+- Maintained and optimized e-commerce backend systems
+- Performed multi-source product data scraping
+- Improved performance & data structuring processes
 
-.github-stats {
-    text-align: center;
-}
+---
 
-footer {
-    text-align: center;
-    padding: 30px;
-    opacity: 0.6;
-}
+# 🚀 CORE SYSTEMS BUILT
 
-@keyframes fadeIn {
-    from {opacity:0; transform: translateY(-20px);}
-    to {opacity:1; transform: translateY(0);}
-}
+## 🔹 AchieveAI – Project Management Platform
+React + TypeScript + Django API
 
-@media(max-width:768px){
-    h1 {font-size:2rem;}
-}
-</style>
-</head>
+- Real-time dashboards
+- Modular component architecture
+- Task board system
+- API-driven infrastructure
 
-<body>
+---
 
-<button class="toggle-btn" onclick="toggleMode()">Toggle Mode</button>
+## 🔹 Caraga IRIS – Government Hiring System
+React + Django
 
-<header>
-    <img src="YOUR_IMGUR_DIRECT_LINK.jpg" alt="Florussel Gallibot">
-    <h1>Florussel F. Gallibot</h1>
-    <p class="subtitle">Full-Stack Developer | React • Next.js • Django • Web Scraping Architect</p>
+- Applicant tracking system
+- Dynamic dashboards
+- Gamification features
+- Real-time processing
 
-    <div class="buttons">
-        <a href="YOUR_RESUME_LINK.pdf" class="btn primary" target="_blank">Download Resume</a>
-        <a href="https://github.com/jrgallibot" class="btn secondary" target="_blank">GitHub Profile</a>
-    </div>
-</header>
+---
 
-<div class="container">
+## 🔹 Odoo Helpdesk System
+Django + React
 
-<div class="card">
-    <div class="section-title">Professional Summary</div>
-    Experienced full-stack software developer specializing in React, Next.js, Django, and scalable web architectures. 
-    Proven expertise in production-grade systems, automation pipelines, and enterprise-level scraping infrastructure.
-</div>
+- Backend workflow integration
+- Automated reporting pipelines
+- Optimized UI rendering
 
-<div class="card">
-    <div class="section-title">Technical Expertise</div>
-    <div class="skills">
-        <span>React</span>
-        <span>Next.js</span>
-        <span>TypeScript</span>
-        <span>Django</span>
-        <span>Python</span>
-        <span>Web Scraping</span>
-        <span>Puppeteer</span>
-        <span>Selenium</span>
-        <span>Redux Toolkit</span>
-        <span>AWS</span>
-        <span>API Integration</span>
-    </div>
-</div>
+---
 
-<div class="card">
-    <div class="section-title">Highlighted Projects</div>
-    <strong>AchieveAI</strong> – Project management system with real-time dashboards.<br><br>
-    <strong>Odoo Helpdesk Integration</strong> – React frontend integrated with Odoo workflows.<br><br>
-    <strong>Caraga IRIS Recruitment System</strong> – Government hiring portal with real-time applicant tracking.<br>
-</div>
+# ⚙️ TECH STACK
 
-<div class="card github-stats">
-    <div class="section-title">GitHub Statistics</div>
-    <img src="https://github-readme-stats.vercel.app/api?username=jrgallibot&show_icons=true&theme=tokyonight" width="100%">
-    <br><br>
-    <img src="https://github-readme-streak-stats.herokuapp.com/?user=jrgallibot&theme=tokyonight" width="100%">
-</div>
+## Frontend Engineering
+- React.js
+- Next.js (SSR / SSG / API Routes)
+- TypeScript
+- Redux Toolkit / Zustand
+- Modern UI architecture
 
-</div>
+## Backend Engineering
+- Python
+- Django & Django REST Framework
+- Flask
+- RESTful API Architecture
+- Authentication Systems (JWT, Session-based)
 
-<footer>
-© 2026 Florussel F. Gallibot | Building scalable systems with precision
-</footer>
+## Data Engineering & Automation
+- Selenium
+- Puppeteer
+- Advanced Web Crawlers
+- AWS Deployment
+- MySQL / PostgreSQL / MongoDB
+- Production scraping pipelines
 
-<script>
-function toggleMode(){
-    document.body.classList.toggle("light");
-}
-</script>
+---
 
-</body>
-</html>
+# 📊 GITHUB PERFORMANCE
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jrgallibot&show_icons=true&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=jrgallibot&theme=tokyonight&hide_border=true" width="48%" />
+</p>
+
+---
+
+# 🎯 WHY HIRE ME (ONLINEJOBS CLIENT VERSION)
+
+✔ Production-level experience  
+✔ Government & enterprise system background  
+✔ Strong automation & scraping expertise  
+✔ Clean, maintainable, scalable code  
+✔ Able to work independently  
+✔ Detail-oriented & deadline-driven  
+✔ Experienced in remote collaboration  
+
+I don’t just write code — I build systems that generate measurable business value.
+
+---
+
+# 📬 CONTACT
+
+📧 jrgallibot@gmail.com  
+📱 09124811686 / 09276756872  
+📲 WhatsApp: +639276756872  
+💻 GitHub: https://github.com/jrgallibot  
+
+---
+
+<p align="center">
+  <strong>Senior Engineer • Remote Ready • System-Oriented Thinker</strong>
+</p>
